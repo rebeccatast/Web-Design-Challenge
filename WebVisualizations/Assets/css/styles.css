@@ -1,0 +1,49 @@
+html{
+    position: relatvie;
+    min-height:100%;
+}
+
+body{
+    margin-bottom:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+@media only screen and (max-width: 767px) {
+    body{background-color: white;
+    }
+}
+
+.navbar-custom{ background-color: white;
+}
+
+#logo{
+    height: 60px;
+    padding: top 20px;
+    padding-bottom: 5px;
+
+    margin-left: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 24 px;
+    font-weight: bold;
+    color:white;
+
+    background:turquoise;
+}
+
+#logo:hover {
+    opacity: 0.7;
+}
+
+.navbar-right-custom{
+    padding-top: 6 px;
+    padding-right: 20px;
+
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: turquoise;
+}
