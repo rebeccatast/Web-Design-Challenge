@@ -47,3 +47,26 @@ body{
 .navbar-default .navbar-nav > li > a:hover {
     color: turquoise;
 }
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        background-color: turquoise;
+    }
+
+    #logo {
+        width:100%;
+
+        height: 60px;
+        padding-top: 20px;
+        padding-bottom: 5 px;
+
+        margin-left: 0;
+        font-family: Georgia, Times, "Times New Roman", serif;
+
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+
+        background: turquoise;
+    }
+}
