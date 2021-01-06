@@ -1,56 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Summary: The Influence of Latitude on Weather Phenomena </title>
+        <title>Summary: The Influence of Latitude on Weather Phenomena </title>   
 
-         <!--Bootstrap Stylesheet-->
+        <!--Bootstrap Stylesheet-->
         <link rel = "stylesheet" href="WebVisualizations/Assets/css/bootstrap.min.css" media ="screen">
 
-         <!--My CSS stylesheet-->
-         <link rel = "stylesheet" href="WebVisualizations/Assets/css/styles.css" media ="screen">
+        <!--My CSS stylesheet-->
+        <link rel = "stylesheet" href="WebVisualizations/Assets/css/styles.css" media ="screen">
 
     </head>
 
     <body>
-       <!--Start of Navigation Bar-->
-       <nav class ="navbar navbar-default">
-        <div class ="container-fluid navbar-custom">
-
-            <div class ="row">
-                <div class = "navbar-header">
-                    <button type ="button" class = "navbar-toggle collapsed" data-toggle= "collapse" data-target ="#bs-example-navbar-collapse-1">
-                        <span class ="sr-only">Toggle Navigation</span>
-                        <span class ="icon-bar"></span>
-                        <span class ="icon-bar"></span>
-                        <span class ="icon-bar"></span>
-                    </button>
-                    <div class ="col-xs-9 phone.nav">
-                        <a class="navbar-brand" href ="#" id="logo">Latitude</a>
+        <!--Start of Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Latitdue</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collect the nav link and other items for toggling-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="WebVisualizations/HTML/comparison.html">Comparison<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="WebVisualizations/HTML/data.html">Data<span class="sr-only">(current)</span></a>
+                    </li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item active" href="WebVisualizations/Visualizations/temp.html">Max Temperature</a>
+                          <a class="dropdown-item active" href="WebVisualizations/Visualizations/humidity.html">Humidity</a>
+                          <a class="dropdown-item active" href="WebVisualizations/Visualizations/cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item active" href="WebVisualizations/Visualizations/wind.html">Wind Speed</a>
+                        </div>
                     </div>
-                </div>
-                <!-- collect the nav link and other items for toggling-->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right navbar-right-custom">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="WebVisualizations/Visualizations/temp.html">Max Temperature</a></li>
-                                <li><a href="WebVisualizations/Visualizations/humidity.html">Humidity</a></li>
-                                <li><a href="WebVisualizations/Visualizations/cloudiness.html">Cloudiness</a></li>
-                                <li><a href="WebVisualizations/Visualizations/wind.html">Wind Speed</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="WebVisualizations/HTML/comparison.html">Comparison</a></li>
-                        <li><a href = "WebVisualizations/HTML/data.html">Data</a></li>
-                    </ul>
-                </div><!--navbar-collapse-->
+                </ul>
             </div>
-        </div><!--container-fluid-->
-    </nav>
-    <!--end of nav bar-->
+        </nav>
+        <!--end of nav bar-->
 
     <!--start of container-->
     <div class = "container">
