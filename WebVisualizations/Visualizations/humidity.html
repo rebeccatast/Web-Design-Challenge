@@ -1,0 +1,104 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Bootstrap Visualization Dashboard</title>
+
+        <!--Bootstrap style sheet-->
+        <link rel = "stylesheet" href="../Assets/css/bootstrap.min.css" media ="screen">
+
+         <!--My CSS stylesheet-->
+         <link rel = "stylesheet" href="../Assets/css/styles.css" media ="screen">
+    </head>
+
+    <body>
+        <!--start of navbar-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid navbar-custom">
+                <!-- brand and toggle for mobile display-->
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target ="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="col-xs-9 phone-nav">
+                            <a class="navbar-brand" href="../HTML/index.html" id="logo">Latitude</a>
+                        </div>
+                    </div>
+
+                    <!-- collect the nav link and other items for toggling-->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="temp.html">Max Temperature</a></li>
+                                    <li><a href="humidity.html">Humidity</a></li>
+                                    <li><a href="cloudiness.html">Cloudiness</a></li>
+                                    <li><a href="wind.html">Wind Speed</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../HTML/comparison.html">Comparison</a></li>
+                            <li><a href="../HTML/data.html">Data</a></li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </nav>
+        <!--end of navbar-->
+
+        <!--start of container-->
+        <div class="container">
+            <section class="row">
+                <div class="col-md-8">
+                    <article class="description-content">
+                        <h1 class="description-header">Humidity</h1>
+                        <hr class="description-hr"/>
+                        <img src="../Assets/images/Fig2.png" alt="Latitude vs. Humidity" class="img-responsive"/>
+                        <p>There appears to be no relationship between latitude and percent humidity. It is interesting to note that on the date that this data was collected, a majority of the cities sampled had a humidity level above 40%.</p>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <!--start of visualization imagenav area-->
+                    <section id = "imageNav-area">
+                        <div class="imageNav-content">
+                            <h2 class="imageNav-header">Visualizations</h2>
+                            <hr />
+                            <div id="images">
+                                <a href="temp.html"><img src="../Assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-content"></a>
+                                <a href="humidity.html"><img src="../Assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-content"></a>
+                                <a href="cloudiness.html"><img src="../Assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-content"></a>
+                                <a href="wind.html"><img src="../Assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-content"></a>
+                            </div>
+                        </div>
+                    </section>
+                    <!--end of visualization image area-->
+                </div>
+            </section>
+        </div>
+        <!--end of container-->
+
+        <!--start of footer-->
+        <footer>
+            <div class ="two-toned-footer-color"></div>
+            <p class ="text-muted text-muted-footer text-center">
+                &copy; Copyright Rebecca Tast 2021
+            </p>
+        </footer>
+        <!--end of footer-->
+
+        <!--jQuery -->
+        <script type ="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+        <!--Bootstrap-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootsrtap.min.js"></script>  
+
+    </body>
+</html>
